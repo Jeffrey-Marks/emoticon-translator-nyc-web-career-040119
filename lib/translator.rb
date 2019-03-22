@@ -35,7 +35,7 @@ def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
   
   if emoticons["get_meaning"].keys.include?(emoticon)
-    
+    emoticons["get_meaning"][emoticon]
   else
     "Sorry, that emoticon was not found"
   end
