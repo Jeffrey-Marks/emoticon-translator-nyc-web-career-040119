@@ -6,7 +6,7 @@ emoticons = YAML.load_file('lib/emoticons.yml')
 # end
 
 def load_library(path)
-  emoticons = YAML.load_file(path')
+  emoticons = YAML.load_file(path)
   emoticons
 end
 
