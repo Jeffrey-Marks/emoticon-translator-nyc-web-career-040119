@@ -1,7 +1,7 @@
 File.exist?('emoticons.yml')
 
-require "yaml"
-emoticons = YAML.load_file('./emoticons.yml')
+# require "yaml"
+# emoticons = YAML.load_file('./emoticons.yml')
 
 def load_library
   # code goes here
@@ -15,4 +15,4 @@ def get_english_meaning
   # code goes here
 end
 
-puts emoticons
+# puts emoticons
