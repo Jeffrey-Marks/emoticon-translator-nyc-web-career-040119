@@ -12,6 +12,8 @@ def load_library(path)
   output["get_meaning"] = {}
   output["get_emoticon"] = {}
   
+  
+  
   output
 end
 
