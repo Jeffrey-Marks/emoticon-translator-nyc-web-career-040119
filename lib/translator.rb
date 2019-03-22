@@ -27,7 +27,7 @@ def get_japanese_emoticon(path, emoticon)
   if emoticons["get_emoticon"].include?(emoticon)
     emoticons["get_emoticon"][emoticon]
   else
-    puts "Sorry, that emoticon was not found."
+    puts "Sorry, that emoticon was not found"
   end
 end
 
