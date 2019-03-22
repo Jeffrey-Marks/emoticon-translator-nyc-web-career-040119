@@ -34,5 +34,5 @@ end
 def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
   
-  if emoticons["get_meaning"]
+  # if emoticons["get_meaning"]
 end
