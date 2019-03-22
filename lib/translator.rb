@@ -18,7 +18,6 @@ def load_library(path)
       output["get_emoticon"][emote_array[0]] = emote_array[1]
   end
 
-  puts output
   output
 end
 
