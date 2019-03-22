@@ -1,4 +1,4 @@
-puts File.exist?('emoticons.yml')
+puts File.exist?('./emoticons.yml')
 
 # require "yaml"
 # emoticons = YAML.load_file('./emoticons.yml')
