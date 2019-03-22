@@ -1,3 +1,5 @@
+puts Dir.entries('.')
+
 puts File.exist?('./emoticons.yml')
 
 # require "yaml"
