@@ -12,7 +12,6 @@ def load_library(path)
   output["get_meaning"] = {}
   output["get_emoticon"] = {}
 
-  puts emoticons
   emoticons.each do |name, emote_array|
       output["get_meaning"][emote_array[1]] = name
       output["get_emoticon"][emote_array[0]] = emote_array[1]
